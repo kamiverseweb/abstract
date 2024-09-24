@@ -1,0 +1,111 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Open Sans", sans-serif;
+}
+.navigator{
+    background-color: black;
+    color: white;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.svg{
+    background-color: white;
+    border-radius: 6px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.submit{
+    background-color: black;
+    border-color: white;
+    border: solid;
+    width: 230px;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 9px;
+    color: white;
+}
+.sign{
+    background-color: #a3b18a;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 130px;
+    font-size: x-large;
+    border-radius: 9px;
+}
+h3{
+    font-size: x-large;
+    padding-top: 10px;
+}
+.howcanwe{
+    background-color: #a3b18a;
+    font-size: xx-large;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.search{
+    background-color: white;
+    color: rgb(75, 73, 73);
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+    width: 750px;
+    height: 60px;
+    border-width: 1px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 400px 400px ;
+    justify-content: space-evenly;
+    width: 1400px;
+    height: 400px;
+    gap: 5rem;
+}
+h2{
+    font-size: x-large;
+}
+p{
+    font-size: x-large;
+}
+.smth{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: larger; 
+    justify-content: space-around;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.a{
+    color: blue;
+    text-decoration: none;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    padding-top: 19px;
+    gap: 1em;
+}
+h4{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-left: 200px;
+}
